@@ -10,7 +10,7 @@ def say_hello(name: str) -> str:
 
 
 @tool("eciResponse", return_direct=True)
-def resp_query(query: str) ->:
+def resp_query(query: str) -> str:
     """Answer when someone say something about ECI Julio Garavito"""
     return f"Hello, "
 
